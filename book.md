@@ -2,7 +2,7 @@
 
 ## Sınav hakkında
 
-Bu çalışma, Türkçe sınav rehberindeki deneme sorularının gözden geçirilmiş Türkçe sürümüdür. 40 soru, dört seçenek ve her soruda tek doğru cevap vardır. Her soru 1 puandır; geçme çizgisi 26/40 (%65), standart süre 60 dakikadır.
+Bu çalışma, Türkçe sınav rehberindeki deneme sorularının gözden geçirilmiş iki dilli sürümüdür. Her sorunun ve seçeneklerinin önce İngilizcesi, ardından Türkçesi verilir; açıklamalar Türkçedir. İki dilde de aynı soru ve seçenek sırası kullanılır. 40 soru, dört seçenek ve her soruda tek doğru cevap vardır. Her soru 1 puandır; geçme çizgisi 26/40 (%65), standart süre 60 dakikadır.
 
 **Süreyi doğru seçin.** TTB'nin Türkçe/İngilizce kitapçığıyla sınava giren ana dili Türkçe aday için süre 60 dakikadır. Ana dili Türkçe olmayan aday için TTB 75 dakika belirtir. Ek süre sınav dili ve sağlayıcı koşullarına bağlıdır. Sınava kaydolmadan önce [TTB'nin güncel koşullarını](https://www.turkishtestingboard.org/kayit/foundation-level-certified-tester/) kontrol edin.
 
@@ -59,11 +59,30 @@ degisiklik: duzeltme
 
 **Soru 1** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 1** (1 point)
+
+A product owner must decide whether a delayed feature will be included in the next release. The product owner asks the testers for a summary of the defects found and the remaining risks. Which typical test objective does this request serve?
+
+a) Verifying that the test object meets contractual and legal requirements
+
+b) Providing information to stakeholders so that they can make informed decisions about the release
+
+c) Checking through validation whether the test object meets stakeholder expectations
+
+d) Executing the tests needed to achieve the planned test coverage
+
+</div>
+
 Bir ürün sahibi (product owner), geciken bir özelliğin bir sonraki sürüme alınıp alınmayacağına karar verecektir. Test uzmanlarından bulunan hataların (defect) ve kalan risklerin bir özetini ister. Bu istek hangi tipik test hedefine (test objective) hizmet eder?
 
 a) Test nesnesinin (test object) sözleşme ve mevzuat gereksinimlerini karşıladığını doğrulamak (verification)
+
 b) Paydaşlara sürüm hakkında bilinçli karar verebilmeleri için bilgi sağlamak
+
 c) Sağlama (validation) yoluyla test nesnesinin paydaş beklentilerini karşılayıp karşılamadığını kontrol etmek
+
 d) Planlanan test kapsamına (test coverage) ulaşmak için gerekli testleri koşmak
 
 <!-- META
@@ -80,11 +99,30 @@ degisiklik: duzeltme
 
 **Soru 2** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 2** (1 point)
+
+A project moves from a sequential development model to an iterative development model with two-week iterations. Which statement **BEST** explains the effect of this change on testing?
+
+a) Test activities are repeated in each iteration as new increments are delivered.
+
+b) Regression testing for the accumulated changes is postponed until the final iteration.
+
+c) System testing focuses on verifying individual components because the increments are smaller.
+
+d) The different objectives of the test levels are replaced by a single shared objective for the short iterations.
+
+</div>
+
 Bir proje, sıralı geliştirme modelinden (sequential development model) iki haftalık döngüsel geliştirme modeline (iterative development model) geçer. Bu değişikliğin test üzerindeki etkisini hangi ifade **EN İYİ** açıklar?
 
 a) Yeni artımlar teslim edildikçe test aktiviteleri her döngüde tekrarlanır.
+
 b) Biriken değişiklikler için regresyon testi (regression testing) son döngüye ertelenir.
+
 c) Sistem testi (system testing), artımlar küçüldüğü için tek tek bileşenlerin doğrulanmasına odaklanır.
+
 d) Test seviyelerinin (test level) farklı hedefleri, kısa döngüler için tek bir ortak hedefle değiştirilir.
 
 <!-- META
@@ -101,11 +139,30 @@ degisiklik: yok
 
 **Soru 3** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 3** (1 point)
+
+Without knowing the code, one tester derives test cases from a state diagram in the specification. Another tester designs additional tests by analyzing gaps in branch coverage of the source code. How are these two approaches classified in terms of black-box, white-box, and experience-based test techniques?
+
+a) Both are white-box test techniques.
+
+b) The first is experience-based and the second is black-box.
+
+c) The first is black-box and the second is white-box.
+
+d) The first is white-box and the second is experience-based.
+
+</div>
+
 Bir test uzmanı, kodu bilmeden, spesifikasyondaki durum diyagramından (state diagram) test senaryoları (test case) türetir. Başka bir test uzmanı, kaynak koddaki dal kapsamı (branch coverage) boşluklarını analiz ederek ek testler tasarlar. Kara kutu (black-box), beyaz kutu (white-box) ve tecrübeye dayalı (experience-based) test teknikleri açısından bu iki yaklaşım nasıl sınıflandırılır?
 
 a) İkisi de beyaz kutu test tekniğidir.
+
 b) Birincisi tecrübeye dayalı, ikincisi kara kutudur.
+
 c) Birincisi kara kutu, ikincisi beyaz kutudur.
+
 d) Birincisi beyaz kutu, ikincisi tecrübeye dayalıdır.
 
 <!-- META
@@ -122,6 +179,27 @@ degisiklik: duzeltme
 
 **Soru 4** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 4** (1 point)
+
+A test manager planning system testing for a payroll release prepares two lists:
+
+- List 1: Before system testing can start, test data for 500 employees must be ready and the system test cases must have been reviewed.
+- List 2: For system testing to be considered complete, the payroll tax module must have at least 85% branch coverage measured at this test level, and no critical defects may remain open.
+
+Which statement about these lists is **CORRECT**?
+
+a) List 1 defines exit criteria, and List 2 defines entry criteria.
+
+b) List 1 defines entry criteria, and List 2 defines exit criteria.
+
+c) Both lists define entry criteria because they are written before testing starts.
+
+d) Both lists define acceptance criteria because they describe conditions that the release must meet.
+
+</div>
+
 Bir bordro sürümü için sistem testini (system testing) planlayan test yöneticisi iki liste hazırlar:
 
 - Liste 1: Sistem testine başlanabilmesi için 500 çalışanlık test verisi (test data) hazır olmalı ve sistem testi senaryoları (test case) gözden geçirilmiş olmalıdır.
@@ -130,8 +208,11 @@ Bir bordro sürümü için sistem testini (system testing) planlayan test yönet
 Bu listelerle ilgili hangi ifade **DOĞRUDUR**?
 
 a) Liste 1 çıkış kriterlerini (exit criteria), Liste 2 giriş kriterlerini (entry criteria) tanımlar.
+
 b) Liste 1 giriş kriterlerini, Liste 2 çıkış kriterlerini tanımlar.
+
 c) İki liste de test başlamadan yazıldığı için giriş kriterlerini tanımlar.
+
 d) İki liste de sürümün karşılaması gereken koşullar olduğu için kabul kriterlerini (acceptance criteria) tanımlar.
 
 <!-- META
@@ -148,11 +229,30 @@ degisiklik: duzeltme
 
 **Soru 5** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 5** (1 point)
+
+A test manager wants to extend static testing beyond source code and requirements specifications. Which of the following can the team examine using static testing?
+
+a) The response times of the deployed payment service under heavy load
+
+b) The mobile application's memory consumption during a long user session
+
+c) The payment screen's runtime behavior when the network connection is lost
+
+d) The supplier contract and the test charters
+
+</div>
+
 Bir test yöneticisi statik testi (static testing), kaynak kodun ve gereksinim spesifikasyonlarının (requirement specification) ötesine taşımak istiyor. Ekip aşağıdakilerden hangisini statik testle inceleyebilir?
 
 a) Devreye alınmış ödeme hizmetinin yoğun yük altındaki yanıt sürelerini
+
 b) Mobil uygulamanın uzun bir kullanıcı oturumu boyunca bellek tüketimini
+
 c) Ağ bağlantısı koptuğunda ödeme ekranının çalışma anındaki davranışını
+
 d) Tedarikçi sözleşmesini ve test başlatma belgelerini (test charter)
 
 <!-- META
@@ -169,6 +269,30 @@ degisiklik: duzeltme
 
 **Soru 6** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 6** (1 point)
+
+At an online ticket office, the number of tickets ordered is entered as an integer. The system accepts between 1 and 100 tickets per order:
+
+- 1–9 tickets are charged at the standard price.
+- 10–49 tickets receive a 10% discount.
+- 50–100 tickets receive a 20% discount.
+- Quantities below 1 are rejected with the error message “Order too small”.
+- Quantities above 100 are rejected with the error message “Order limit exceeded”.
+
+When equivalence partitioning is applied to the ticket quantity, how many equivalence partitions in total, valid and invalid, should be identified?
+
+a) 3
+
+b) 4
+
+c) 6
+
+d) 5
+
+</div>
+
 Bir çevrim içi bilet gişesinde sipariş edilen bilet miktarı tam sayı olarak girilir. Sistem sipariş başına 1 ile 100 arasında bilet kabul eder:
 
 - 1–9 bilet standart fiyattan ücretlendirilir.
@@ -180,8 +304,11 @@ Bir çevrim içi bilet gişesinde sipariş edilen bilet miktarı tam sayı olara
 Bilet miktarına denklik paylarına ayırma (equivalence partitioning) uygulandığında, geçerli ve geçersiz toplam kaç denklik payı (equivalence partition) belirlenmelidir?
 
 a) 3
+
 b) 4
+
 c) 6
+
 d) 5
 
 <!-- META
@@ -198,13 +325,34 @@ degisiklik: duzeltme
 
 **Soru 7** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 7** (1 point)
+
+A flight-booking company does not tell a new developer that departure times are stored in Coordinated Universal Time (UTC). The developer assumes that the times are local and writes code that stores them without conversion. A week after release, a passenger's boarding reminder arrives an hour after the flight has departed.
+
+Considering the distinction between an error, a defect, a failure, and a root cause, which statement is **CORRECT**?
+
+a) The missing briefing is the error; the code that stores local times is the failure.
+
+b) The developer's wrong assumption is the root cause; the stored local times are the failure.
+
+c) The wrong assumption is the error; the late boarding reminder is the failure.
+
+d) The code that stores local times is the root cause; the missing briefing is the defect.
+
+</div>
+
 Bir uçuş rezervasyon şirketi, yeni bir geliştiriciye kalkış saatlerinin Eşgüdümlü Evrensel Zaman (UTC) olarak saklandığını söylemez. Geliştirici saatlerin yerel saat olduğunu varsayar ve onları dönüştürmeden saklayan kodu yazar. Sürümden bir hafta sonra bir yolcunun biniş hatırlatması, uçuş kalktıktan bir saat sonra gelir.
 
 İnsan hatası (error), hata (defect), arıza (failure) ve kök neden (root cause) ayrımına göre hangi ifade **DOĞRUDUR**?
 
 a) Eksik bilgilendirme insan hatasıdır; yerel saatleri saklayan kod ise arızadır.
+
 b) Geliştiricinin yanlış varsayımı kök nedendir; saklanan yerel saatler ise arızadır.
+
 c) Yanlış varsayım insan hatasıdır; geç gelen biniş hatırlatması ise arızadır.
+
 d) Yerel saatleri saklayan kod kök nedendir; eksik bilgilendirme ise hatadır.
 
 <!-- META
@@ -221,11 +369,30 @@ degisiklik: duzeltme
 
 **Soru 8** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 8** (1 point)
+
+In a hybrid project, testers receive user stories only after the code is complete and the stories are marked “ready for testing”. As a result, defects in the stories are found late. Which good testing practice, applicable to every software development lifecycle, **BEST** addresses this problem?
+
+a) Assigning each test level objectives that differ from those of the other levels
+
+b) Starting test execution once the code for all planned features is complete
+
+c) Participating in reviews when draft stories become available
+
+d) Having testers write the stories' acceptance criteria in place of business representatives
+
+</div>
+
 Hibrit bir projede test uzmanları, kullanıcı hikâyelerini (user story) ancak kod tamamlanıp hikâyeler “teste hazır” olarak işaretlendiğinde alır. Bu yüzden hikâyelerdeki hatalar (defect) geç bulunur. Her yazılım geliştirme yaşam döngüsünde (software development lifecycle) geçerli olan hangi iyi test uygulaması bu sorunu **EN İYİ** şekilde giderir?
 
 a) Her test seviyesine (test level), diğer seviyelerin hedeflerinden farklı hedefler atamak
+
 b) Test koşumuna (test execution), kodun planlanan bütün özellikleri tamamlandığında başlamak
+
 c) Hikâye taslakları hazır olduğunda gözden geçirmeye (review) katılmak
+
 d) Hikâyelerin kabul kriterlerini (acceptance criteria), iş temsilcilerinin yerine test uzmanlarına yazdırmak
 
 <!-- META
@@ -242,11 +409,30 @@ degisiklik: duzeltme
 
 **Soru 9** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 9** (1 point)
+
+Two teams draw their test pyramids differently. One team labels the layers unit testing, service testing, and UI testing. The other uses component testing, integration testing, and end-to-end testing. Which statement about the test pyramid is **CORRECT**?
+
+a) The first diagram is valid; the pyramid is defined by three layers named unit, service, and UI.
+
+b) In both diagrams, test isolation increases towards the higher layers.
+
+c) Although the layer names differ, the model determines the test technique to use at each layer.
+
+d) The number and names of the layers can vary; both diagrams may be valid.
+
+</div>
+
 İki ekip test piramitlerini (test pyramid) farklı çizer. Bir ekip katmanları birim testleri (unit testing), servis testleri (service testing) ve kullanıcı arayüzü testleri (UI testing) olarak adlandırır. Diğeri bileşen testleri (component testing), entegrasyon testleri (integration testing) ve uçtan uca testler (end-to-end testing) adlarını kullanır. Test piramidi hakkında hangi ifade **DOĞRUDUR**?
 
 a) İlk çizim geçerlidir; piramit, adları birim, servis ve kullanıcı arayüzü olan üç katmanla tanımlanır.
+
 b) İki çizimde de üst katmanlara çıkıldıkça test yalıtımı (test isolation) artar.
+
 c) Katman adları farklılaşsa da model, her katmanda kullanılacak test tekniğini (test technique) belirler.
+
 d) Katmanların sayısı ve adları değişebilir; iki çizim de geçerli olabilir.
 
 <!-- META
@@ -263,11 +449,30 @@ degisiklik: duzeltme
 
 **Soru 10** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 10** (1 point)
+
+After a regression test run, statement coverage of a currency conversion component is reported as 92%. Three statements that have never been executed are in the block that handles the exchange-rate service being unavailable. All executed tests passed. What can be concluded from this information?
+
+a) These three statements are dead code because they were not executed by the tests, and can be removed from the component.
+
+b) The component's branch coverage is also 92% because it is measured from the same code as statement coverage.
+
+c) The passing tests show that the error-handling block works correctly when the exchange-rate service is unavailable.
+
+d) The service-unavailable situation must be tested to cover these three statements.
+
+</div>
+
 Bir regresyon testi (regression testing) koşumunun ardından döviz çevirme bileşeninin komut kapsamı (statement coverage) %92 olarak raporlanır. Hiç çalıştırılmamış üç komut, döviz kuru hizmetine ulaşılamadığı durumu ele alan bloktadır. Koşulan bütün testler geçmiştir. Bu bilgilerden hangi sonuç çıkarılabilir?
 
 a) Bu üç komut testlerde çalıştırılmadığı için ölü koddur (dead code) ve bileşenden kaldırılabilir.
+
 b) Komut kapsamıyla aynı koddan ölçüldüğü için bileşenin dal kapsamı (branch coverage) da %92'dir.
+
 c) Testlerin geçmesi, döviz kuru hizmetine ulaşılamadığında hata ele alma bloğunun doğru çalıştığını gösterir.
+
 d) Bu üç komutu kapsamak için hizmete ulaşılamayan durum test edilmelidir.
 
 
@@ -287,11 +492,30 @@ degisiklik: duzeltme
 
 **Soru 11** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 11** (1 point)
+
+In one release, a contradiction in a user story is found during a review before coding starts and is corrected in ten minutes. In the next release, a similar contradiction is missed and spreads into the design, code, and test cases. This defect is found in production and requires changes to all these work products and an emergency patch. Which testing principle **BEST** explains this comparison?
+
+a) Defects cluster together in certain areas of the software.
+
+b) Testing shows the presence of defects; it does not prove their absence.
+
+c) The absence-of-defects fallacy: finding no defects does not show that the product meets the need.
+
+d) Early testing saves time and money.
+
+</div>
+
 Bir sürümde, kod yazılmadan önce bir kullanıcı hikâyesindeki (user story) çelişki gözden geçirmede (review) bulunur ve on dakikada düzeltilir. Sonraki sürümde benzer bir çelişki gözden kaçar; tasarıma, koda ve test senaryolarına (test case) yayılır. Canlı ortamda bulunan bu hata (defect), bütün bu iş ürünlerinin (work product) değiştirilmesini ve acil yama hazırlanmasını gerektirir. Bu karşılaştırmayı hangi test prensibi (testing principle) **EN İYİ** açıklar?
 
 a) Hatalar yazılımın belli alanlarında yoğunlaşır (defects cluster together).
+
 b) Testler hataların varlığını gösterir; yokluğunu kanıtlamaz (testing shows the presence, not the absence of defects).
+
 c) Hatasızlık yanılgısı (absence-of-defects fallacy): hata bulamamak, ürünün ihtiyaca uygun olduğunu göstermez.
+
 d) Erken test, zaman ve para tasarrufu sağlar (early testing saves time and money).
 
 <!-- META
@@ -308,11 +532,30 @@ degisiklik: duzeltme
 
 **Soru 12** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 12** (1 point)
+
+Test-first approaches include test-driven development (TDD), acceptance test-driven development (ATDD), and behavior-driven development (BDD). Which statement about these approaches is **CORRECT**?
+
+a) ATDD tests are derived from the structure of the source code after the relevant component is complete.
+
+b) In all three approaches, the tests can be retained as automated tests for subsequent changes.
+
+c) BDD tests are derived from code structures chosen by developers rather than stakeholder discussions.
+
+d) Business representatives derive TDD tests from user stories' acceptance criteria.
+
+</div>
+
 Önce test yaklaşımları (test-first approaches) arasında test güdümlü yazılım geliştirme (test-driven development, TDD), kabul testi güdümlü yazılım geliştirme (acceptance test-driven development, ATDD) ve davranış güdümlü yazılım geliştirme (behavior-driven development, BDD) bulunur. Bu yaklaşımlar hakkında hangi ifade **DOĞRUDUR**?
 
 a) ATDD testleri, ilgili bileşen tamamlandıktan sonra kaynak kodun yapısından türetilir.
+
 b) Üç yaklaşımda da testler sonraki değişiklikler için otomatik testler olarak korunabilir.
+
 c) BDD testleri, paydaş görüşmeleri yerine geliştiricilerin seçtiği kod yapısından türetilir.
+
 d) TDD testlerini iş temsilcileri kullanıcı hikâyelerinin kabul kriterlerinden (acceptance criteria) türetir.
 
 <!-- META
@@ -329,11 +572,30 @@ degisiklik: yok
 
 **Soru 13** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 13** (1 point)
+
+A registration form accepts passwords between 8 and 20 characters long and rejects lengths outside this range. When **2-value** boundary value analysis is applied to password length, how many distinct length values should be tested?
+
+a) 4
+
+b) 2
+
+c) 6
+
+d) 8
+
+</div>
+
 Bir kayıt formu 8 ile 20 karakter uzunluğundaki parolaları kabul eder; bu aralığın dışındaki uzunlukları reddeder. Parola uzunluğuna **2 değerli** sınır değer analizi (2-value boundary value analysis) uygulandığında kaç farklı uzunluk değeri test edilmelidir?
 
 a) 4
+
 b) 2
+
 c) 6
+
 d) 8
 
 <!-- META
@@ -350,11 +612,30 @@ degisiklik: duzeltme
 
 **Soru 14** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 14** (1 point)
+
+A team is placing its tests in the testing quadrants. Which of the following placements is **CORRECT**?
+
+a) Security testing of the login service: Q4, technology-facing and critiquing the product.
+
+b) Usability testing with real users: Q4, technology-facing and critiquing the product.
+
+c) Component integration testing in continuous integration: Q3, business-facing and critiquing the product.
+
+d) Exploratory testing sessions: Q2, business-facing and supporting the team.
+
+</div>
+
 Bir ekip testlerini test çeyreklerine (testing quadrants) yerleştiriyor. Aşağıdaki yerleştirmelerden hangisi **DOĞRUDUR**?
 
 a) Oturum açma hizmetinin güvenlik testleri (security testing): Q4, teknolojiye dönük ve ürünü eleştiren.
+
 b) Gerçek kullanıcılarla kullanılabilirlik testleri (usability testing): Q4, teknolojiye dönük ve ürünü eleştiren.
+
 c) Sürekli entegrasyondaki (continuous integration) bileşen entegrasyon testleri (component integration testing): Q3, işe dönük ve ürünü eleştiren.
+
 d) Keşif testi (exploratory testing) oturumları: Q2, işe dönük ve ekibi destekleyen.
 
 <!-- META
@@ -371,11 +652,30 @@ degisiklik: yok
 
 **Soru 15** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 15** (1 point)
+
+During a review of a data migration specification, the participants agree that eleven defects have been identified. Which role is responsible for correcting these defects in the specification?
+
+a) Author
+
+b) Review leader
+
+c) Scribe
+
+d) Moderator
+
+</div>
+
 Bir veri taşıma spesifikasyonunun gözden geçirmesinde (review), katılımcılar on bir hata (defect) saptandığı konusunda uzlaşır. Spesifikasyondaki bu hataları düzeltmekten hangi rol sorumludur?
 
 a) Yazar (author)
+
 b) Gözden geçirme lideri (review leader)
+
 c) Katip (scribe)
+
 d) Moderatör (moderator)
 
 <!-- META
@@ -392,11 +692,30 @@ degisiklik: duzeltme
 
 **Soru 16** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 16** (1 point)
+
+Which strength does white-box testing offer compared with black-box testing?
+
+a) It verifies that all stakeholder business needs are met by examining the control flow in the code.
+
+b) It provides coverage of parts of the implementation that are not specified.
+
+c) It provides coverage of business behavior independently of the implementation by deriving tests from requirements.
+
+d) It ensures that every requirement in the specification is present in the implementation by measuring code coverage.
+
+</div>
+
 Beyaz kutu testi (white-box testing), kara kutu testine (black-box testing) göre hangi güçlü yönü sağlar?
 
 a) Koddaki kontrol akışını inceleyerek paydaşların bütün iş ihtiyaçlarının karşılandığını doğrular.
+
 b) Spesifikasyonda belirtilmeyen gerçekleştirim kısımları için kapsam sağlar.
+
 c) Testleri gereksinimlerden türeterek gerçekleştirimden bağımsız iş davranışı kapsamı sağlar.
+
 d) Spesifikasyondaki her gereksinimin gerçekleştirimde bulunmasını kod kapsamı ölçümüyle güvenceye alır.
 
 <!-- META
@@ -413,11 +732,30 @@ degisiklik: yok
 
 **Soru 17** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 17** (1 point)
+
+A tester turns the prioritized test conditions for a loyalty points feature into test cases and identifies coverage items. The tester also defines the required test data and the characteristics that the test environment must provide. Which test activity is the tester performing?
+
+a) Test analysis
+
+b) Test implementation
+
+c) Test planning
+
+d) Test design
+
+</div>
+
 Bir test uzmanı, sadakat puanı özelliğinin önceliklendirilmiş test koşullarını (test condition) test senaryolarına (test case) dönüştürür ve kapsam öğelerini (coverage item) belirler. Gerekli test verisini (test data) ve test ortamının (test environment) sağlaması gereken özellikleri de tanımlar. Hangi test aktivitesini (test activity) yürütmektedir?
 
 a) Test analizi (test analysis)
+
 b) Test uyarlama (test implementation)
+
 c) Test planlama (test planning)
+
 d) Test tasarımı (test design)
 
 <!-- META
@@ -434,11 +772,30 @@ degisiklik: yok
 
 **Soru 18** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 18** (1 point)
+
+Risk analysis rates the integration with a new payment provider as a high product risk for the first busy sales weekend. In addition to testing, the team prepares and rehearses a procedure that will switch all payments back to the previous provider within 15 minutes if the integration fails in production. What does this procedure represent?
+
+a) Risk acceptance
+
+b) Risk transfer
+
+c) Risk mitigation through testing
+
+d) A contingency plan
+
+</div>
+
 Risk analizi (risk analysis), yeni ödeme sağlayıcısı entegrasyonunu ilk yoğun satış hafta sonu için yüksek ürün riski (product risk) olarak değerlendirir. Ekip, testlere ek olarak, entegrasyon canlı ortamda başarısız olursa bütün ödemeleri 15 dakika içinde önceki sağlayıcıya döndürecek bir prosedür hazırlar ve prova eder. Bu prosedür neyi temsil eder?
 
 a) Risk kabulü (risk acceptance)
+
 b) Risk transferi (risk transfer)
+
 c) Test yoluyla risk azaltma (risk mitigation)
+
 d) Acil durum planı (contingency plan)
 
 <!-- META
@@ -455,6 +812,28 @@ degisiklik: duzeltme
 
 **Soru 19** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 19** (1 point)
+
+A car rental pricing rule depends on three conditions:
+
+- Driver age group: under 25, 25–69, or 70 and over.
+- Loyalty card: present or absent.
+- Airport pickup: yes or no.
+
+The team will build the extended-entry decision table without removing or combining any columns. How many columns does the full table contain?
+
+a) 18
+
+b) 12
+
+c) 24
+
+d) 6
+
+</div>
+
 Bir araç kiralama fiyat kuralı üç koşula bağlıdır:
 
 - Sürücünün yaş grubu: 25 yaş altı, 25–69 veya 70 ve üstü.
@@ -464,8 +843,11 @@ Bir araç kiralama fiyat kuralı üç koşula bağlıdır:
 Ekip genişletilmiş giriş karar tablosunu (extended-entry decision table), hiçbir sütunu çıkarmadan veya birleştirmeden oluşturacaktır. Tam tablo kaç sütun içerir?
 
 a) 18
+
 b) 12
+
 c) 24
+
 d) 6
 
 <!-- META
@@ -482,11 +864,30 @@ degisiklik: duzeltme
 
 **Soru 20** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 20** (1 point)
+
+A tool runs automated test suites on every code commit, collects their results, and measures how much of the code has been executed. Based on its main function, which tool category does it belong to?
+
+a) Test management tools
+
+b) Test execution and test coverage tools
+
+c) Static testing tools
+
+d) Test design and test implementation tools
+
+</div>
+
 Bir araç her kod değişikliği kaydında otomatik test gruplarını (test suite) koşar, sonuçlarını toplar ve kodun ne kadarının çalıştırıldığını ölçer. Ana işlevine göre hangi araç kategorisine girer?
 
 a) Test yönetimi araçları (test management tools)
+
 b) Test koşumu ve kapsam araçları (test execution and test coverage tools)
+
 c) Statik test araçları (static testing tools)
+
 d) Test tasarımı ve test uyarlama araçları (test design and test implementation tools)
 
 
@@ -506,11 +907,30 @@ degisiklik: yok
 
 **Soru 21** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 21** (1 point)
+
+While deriving test conditions from a user story, a tester notices that two acceptance criteria contradict each other. Because the product owner cannot correct the story immediately, the tester creates a defect report. This report emerges as a work product of which test activity?
+
+a) Test execution
+
+b) Test analysis
+
+c) Test design
+
+d) Test completion
+
+</div>
+
 Bir test uzmanı, kullanıcı hikâyesinden (user story) test koşulları (test condition) türetirken iki kabul kriterinin (acceptance criteria) çeliştiğini fark eder. Ürün sahibi hikâyeyi hemen düzeltemediği için test uzmanı bir hata raporu (defect report) oluşturur. Bu rapor hangi test aktivitesinin (test activity) iş ürünü (work product) olarak ortaya çıkar?
 
 a) Test koşumu (test execution)
+
 b) Test analizi (test analysis)
+
 c) Test tasarımı (test design)
+
 d) Test tamamlama (test completion)
 
 <!-- META
@@ -527,11 +947,30 @@ degisiklik: yok
 
 **Soru 22** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 22** (1 point)
+
+Instead of waiting for the complete system to be ready in a representative environment, a mobile banking team runs performance and security tests on each component as soon as it is developed. Which concept **BEST** explains this practice?
+
+a) Test-driven development
+
+b) Confirmation testing
+
+c) Risk-based testing
+
+d) Shift left
+
+</div>
+
 Bir mobil bankacılık ekibi, eksiksiz sistemin temsili ortamda hazır olmasını beklemek yerine her bileşen geliştirilir geliştirilmez performans testleri (performance testing) ve güvenlik testleri (security testing) koşar. Bu uygulamayı hangi kavram **EN İYİ** açıklar?
 
 a) Test güdümlü yazılım geliştirme (test-driven development)
+
 b) Onaylama testi (confirmation testing)
+
 c) Risk bazlı test (risk-based testing)
+
 d) Sola alma (shift left)
 
 <!-- META
@@ -548,6 +987,32 @@ degisiklik: duzeltme
 
 **Soru 23** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 23** (1 point)
+
+Only the following state transitions are defined for a media player; any transition not listed is invalid:
+
+| Source state | Event | Target state |
+|---|---|---|
+| Idle | start | Playing |
+| Playing | pause | Paused |
+| Paused | resume | Playing |
+| Playing | stop | Stopped |
+| Paused | stop | Stopped |
+
+The player starts in the Idle state. Which event sequence is a valid test case?
+
+a) start, resume, stop
+
+b) start, pause, pause, stop
+
+c) start, pause, resume, stop
+
+d) start, stop, resume
+
+</div>
+
 Bir medya oynatıcının yalnız aşağıdaki durum geçişleri (state transition) tanımlıdır; listede bulunmayan geçişler geçersizdir:
 
 | Kaynak durum | Olay | Hedef durum |
@@ -561,8 +1026,11 @@ Bir medya oynatıcının yalnız aşağıdaki durum geçişleri (state transitio
 Oynatıcı Boşta durumunda başlar. Hangi olay dizisi geçerli bir test senaryosudur (test case)?
 
 a) başlat, sürdür, durdur
+
 b) başlat, duraklat, duraklat, durdur
+
 c) başlat, duraklat, sürdür, durdur
+
 d) başlat, durdur, sürdür
 
 <!-- META
@@ -579,11 +1047,30 @@ degisiklik: yok
 
 **Soru 24** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 24** (1 point)
+
+In a similar previous project, the ratio of development effort to test effort was 4:3. The development effort for the new project is estimated at 720 person-days. Using estimation based on ratios, what is the estimated test effort in person-days?
+
+a) 180 person-days
+
+b) 540 person-days
+
+c) 960 person-days
+
+d) 1,260 person-days
+
+</div>
+
 Benzer bir önceki projede geliştirme eforunun test eforuna oranı 4:3'tür. Yeni projenin geliştirme eforu 720 kişi-gün olarak tahmin edilmektedir. Oranlara dayalı tahminleme (estimation based on ratios) ile tahmini test eforu kaç kişi-gündür?
 
 a) 180 kişi-gün
+
 b) 540 kişi-gün
+
 c) 960 kişi-gün
+
 d) 1.260 kişi-gün
 
 <!-- META
@@ -600,11 +1087,30 @@ degisiklik: duzeltme
 
 **Soru 25** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 25** (1 point)
+
+Which statement about the differences between static testing and dynamic testing is **CORRECT**?
+
+a) Dynamic testing can evaluate non-executable work products such as requirements specifications.
+
+b) Static testing can evaluate characteristics such as maintainability that do not depend on executing the code.
+
+c) Static testing evaluates performance efficiency by measuring the response times of a service running under load.
+
+d) Dynamic testing finds gaps in test basis coverage, such as a missing test for an acceptance criterion, more easily than static testing.
+
+</div>
+
 Statik test (static testing) ve dinamik test (dynamic testing) arasındaki farklar hakkında hangi ifade **DOĞRUDUR**?
 
 a) Dinamik test, gereksinim spesifikasyonları gibi çalıştırılamayan iş ürünlerini (work product) değerlendirebilir.
+
 b) Statik test, kodun çalıştırılmasına bağlı olmayan sürdürülebilirlik (maintainability) gibi özellikleri değerlendirebilir.
+
 c) Statik test, yük altında çalışan hizmetin yanıt sürelerini ölçerek performans verimliliğini (performance efficiency) değerlendirir.
+
 d) Dinamik test, bir kabul kriteri için eksik test gibi test esası (test basis) kapsam boşluklarını statik testten daha kolay bulur.
 
 <!-- META
@@ -621,11 +1127,30 @@ degisiklik: yok
 
 **Soru 26** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 26** (1 point)
+
+A payroll tester remembers failures in previous releases involving employees who joined mid-month and employees with zero recorded hours. For the new overtime feature, the tester designs tests with the same types of employees based on those past failures. Which technique is the tester using?
+
+a) Exploratory testing
+
+b) Error guessing
+
+c) Checklist-based testing
+
+d) Boundary value analysis
+
+</div>
+
 Bir bordro test uzmanı, önceki sürümlerde ay ortasında işe başlayan çalışanlar ve sıfır saat kaydı olan çalışanlar için arızalar (failure) yaşandığını hatırlar. Yeni fazla mesai özelliğinde bu geçmiş arızalara dayanarak aynı tür çalışanlarla testler tasarlar. Hangi tekniği kullanmaktadır?
 
 a) Keşif testi (exploratory testing)
+
 b) Hata tahminleme (error guessing)
+
 c) Kontrol listesine dayalı test etme (checklist-based testing)
+
 d) Sınır değer analizi (boundary value analysis)
 
 <!-- META
@@ -642,11 +1167,30 @@ degisiklik: duzeltme
 
 **Soru 27** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 27** (1 point)
+
+An auditor requests evidence that each requirement in the release is covered by at least one executed test. Which property of the testware allows this evidence to be prepared efficiently?
+
+a) Traceability between the test basis and the testware
+
+b) Independence of testing that allows the test team to work separately from the development team
+
+c) Test automation that allows the regression test suite to be executed quickly
+
+d) Entry criteria that identify the resources needed for the test levels to start
+
+</div>
+
 Bir denetçi, sürümdeki her gereksinimin en az bir koşulmuş testle kapsandığını gösteren kanıt ister. Test çalışma ürünlerinin (testware) hangi özelliği bu kanıtın verimli biçimde hazırlanmasını sağlar?
 
 a) Test esası (test basis) ile test çalışma ürünleri arasındaki izlenebilirlik (traceability)
+
 b) Test ekibinin geliştirme ekibinden ayrı çalışmasını sağlayan test bağımsızlığı (independence of testing)
+
 c) Regresyon testi (regression testing) grubunun kısa sürede koşulmasını sağlayan test otomasyonu (test automation)
+
 d) Test seviyelerinin (test level) başlaması için gereken kaynakları belirleyen giriş kriterleri (entry criteria)
 
 <!-- META
@@ -663,11 +1207,30 @@ degisiklik: yok
 
 **Soru 28** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 28** (1 point)
+
+Before a hospital appointment system goes live, the IT operations team tests backup, restoration, disaster recovery, and user account management in a production-like environment. The aim is to evaluate whether the team can operate the system in production and whether the system is ready for deployment. Which test level is this?
+
+a) Acceptance testing
+
+b) System testing
+
+c) System integration testing
+
+d) Component integration testing
+
+</div>
+
 Bir hastanenin randevu sistemi canlıya alınmadan önce BT operasyon ekibi, canlıya benzer ortamda yedekleme, geri yükleme, felaket kurtarma ve kullanıcı hesabı yönetimini test eder. Amaç, ekibin sistemi canlı ortamda işletebileceğini ve sistemin dağıtıma hazır olduğunu değerlendirmektir. Bu hangi test seviyesidir (test level)?
 
 a) Kabul testi (acceptance testing)
+
 b) Sistem testi (system testing)
+
 c) Sistem entegrasyon testi (system integration testing)
+
 d) Bileşen entegrasyon testi (component integration testing)
 
 <!-- META
@@ -684,6 +1247,31 @@ degisiklik: yok
 
 **Soru 29** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 29** (1 point)
+
+A component has ten executable statements named S1–S10. The team will order the following test cases using **additional coverage prioritization**:
+
+| Test case | Statements executed |
+|---|---|
+| TC1 | S1, S2, S3, S4, S5, S6 |
+| TC2 | S1, S2, S3, S4, S5 |
+| TC3 | S7, S8, S9 |
+| TC4 | S6, S10 |
+
+Which execution order is **CORRECT**?
+
+a) TC1, TC2, TC3, TC4
+
+b) TC1, TC3, TC2, TC4
+
+c) TC4, TC3, TC2, TC1
+
+d) TC1, TC3, TC4, TC2
+
+</div>
+
 Bir bileşenin S1–S10 adlı on çalıştırılabilir komutu (executable statement) vardır. Ekip, aşağıdaki test senaryolarını (test case) **ek kapsama dayalı önceliklendirme** (additional coverage prioritization) ile sıralayacaktır:
 
 | Test senaryosu | Çalıştırılan komutlar |
@@ -696,8 +1284,11 @@ Bir bileşenin S1–S10 adlı on çalıştırılabilir komutu (executable statem
 Hangi koşum sırası **DOĞRUDUR**?
 
 a) TC1, TC2, TC3, TC4
+
 b) TC1, TC3, TC2, TC4
+
 c) TC4, TC3, TC2, TC1
+
 d) TC1, TC3, TC4, TC2
 
 <!-- META
@@ -714,11 +1305,30 @@ degisiklik: duzeltme
 
 **Soru 30** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 30** (1 point)
+
+Which statement about checklist-based testing is **CORRECT**?
+
+a) The checklist defines detailed execution steps for each check to ensure consistency.
+
+b) Checklist items that passed in one release are removed to update the list for the next release.
+
+c) When detailed test cases are unavailable, the checklist can provide guidance and consistency.
+
+d) Checklist items are a measure of white-box coverage because they are derived from code branches.
+
+</div>
+
 Kontrol listesine dayalı test etme (checklist-based testing) hakkında hangi ifade **DOĞRUDUR**?
 
 a) Kontrol listesi, tutarlılık sağlamak için her kontrolün ayrıntılı koşum adımlarını tanımlar.
+
 b) Bir sürümde başarıyla geçen kontrol maddeleri, sonraki sürümde listeden çıkarılarak liste güncellenir.
+
 c) Ayrıntılı test senaryoları (test case) yoksa kontrol listesi yol gösterebilir ve tutarlılık sağlar.
+
 d) Kontrol listesi maddeleri, kodun dallarından (branch) türetildiği için beyaz kutu kapsamı ölçüsüdür.
 
 
@@ -738,11 +1348,30 @@ degisiklik: duzeltme
 
 **Soru 31** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 31** (1 point)
+
+A department manager asks about an advantage of the whole team approach. Which response states an advantage of this approach?
+
+a) It allows specialists to focus on their own tasks without participating in other team activities.
+
+b) It provides a high level of independence of testing through external test teams.
+
+c) It allows the team's different knowledge and skills to be used for the benefit of the project.
+
+d) It transfers responsibility for product quality to a quality team that works separately from the developers.
+
+</div>
+
 Bir departman yöneticisi, tüm ekip yaklaşımının (whole team approach) sağlayacağı bir avantajı sorar. Aşağıdaki yanıtlardan hangisi bu yaklaşımın avantajını belirtir?
 
 a) Uzmanların diğer ekip aktivitelerine katılmadan kendi görevlerinde uzmanlaşmasını sağlar.
+
 b) Harici test ekipleriyle yüksek test bağımsızlığı (independence of testing) düzeyini sağlar.
+
 c) Ekipteki farklı bilgi ve becerilerin projenin yararına kullanılmasını sağlar.
+
 d) Ürün kalitesinin sorumluluğunu geliştiricilerden ayrı çalışan bir kalite ekibine devreder.
 
 <!-- META
@@ -759,11 +1388,30 @@ degisiklik: duzeltme
 
 **Soru 32** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 32** (1 point)
+
+In a hotel application, the number of nights is calculated incorrectly for stays spanning the end of a month. After the fix, a tester repeats the 30 April–2 May test that revealed the failure. The tester then reruns previously passing automated test suites for payments, loyalty points, and cancellations on the new version. In terms of confirmation testing and regression testing, which statement **BEST** explains these two activities?
+
+a) The first activity looks for side effects in the changed calculation, and the second looks for side effects in other features.
+
+b) The first activity checks that the defect has been fixed; the second looks for adverse consequences of the change.
+
+c) The first activity checks that the defect has been fixed; the second is a formality that documents results in untouched areas.
+
+d) The first activity evaluates fitness for user needs; the second measures the application's test coverage.
+
+</div>
+
 Bir otel uygulamasında ay sonunu aşan konaklamalar için gece sayısı yanlış hesaplanmaktadır. Düzeltmeden sonra test uzmanı arızayı (failure) ortaya çıkaran 30 Nisan–2 Mayıs testini tekrarlar. Ardından ödeme, sadakat puanı ve iptal için önceki koşumlarda geçen otomatik test gruplarını (test suite) yeni sürüm üzerinde yeniden koşar. Onaylama testi (confirmation testing) ve regresyon testi (regression testing) açısından bu iki aktiviteyi hangi ifade **EN İYİ** açıklar?
 
 a) İlk aktivite değişen hesaplamanın yan etkilerini, ikinci aktivite de diğer özelliklerdeki yan etkileri arar.
+
 b) İlk aktivite hatanın (defect) giderildiğini kontrol eder; ikinci aktivite değişikliğin olumsuz etkilerini arar.
+
 c) İlk aktivite hatanın giderildiğini kontrol eder; ikinci aktivite dokunulmayan alanlarda sonuçları belgeleyen bir formalitedir.
+
 d) İlk aktivite kullanıcı ihtiyaçlarına uygunluğu değerlendirir; ikinci aktivite uygulamanın test kapsamını (test coverage) ölçer.
 
 <!-- META
@@ -780,6 +1428,30 @@ degisiklik: duzeltme
 
 **Soru 33** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 33** (1 point)
+
+The acceptance criteria for shipping charges are written as follows:
+
+| Membership | Order total | Shipping charge |
+|---|---|---|
+| Standard | Below 50 | 4.99 |
+| Standard | 50 or above | 0.00 |
+| Gold | Any amount | 0.00 |
+
+Which format for writing acceptance criteria does this table illustrate?
+
+a) Scenario-oriented: each row describes the result that follows an event.
+
+b) Structure-oriented: the rows describe branches in the shipping calculation code and the order in which they are executed.
+
+c) Rule-oriented: it specifies the mapping between conditions and the expected charge.
+
+d) Scenario-oriented: the order of the rows specifies the sequence of steps a customer follows across successive orders.
+
+</div>
+
 Kargo ücretine ilişkin kabul kriterleri (acceptance criteria) aşağıdaki gibi yazılmıştır:
 
 | Üyelik | Sipariş toplamı | Kargo ücreti |
@@ -791,8 +1463,11 @@ Kargo ücretine ilişkin kabul kriterleri (acceptance criteria) aşağıdaki gib
 Bu tablo hangi kabul kriteri yazma biçimini örnekler?
 
 a) Senaryo odaklı (scenario-oriented): her satır, bir olayın ardından gerçekleşen sonucu anlatır.
+
 b) Yapı odaklı: satırlar, kargo hesaplayan kodun dallarını ve bu dalların çalıştırılma sırasını anlatır.
+
 c) Kural odaklı (rule-oriented): koşullar ile beklenen ücret arasındaki eşlemeyi belirtir.
+
 d) Senaryo odaklı: tablodaki satır sırası, bir müşterinin ardışık siparişlerde izleyeceği işlem adımlarını belirtir.
 
 <!-- META
@@ -809,11 +1484,30 @@ degisiklik: duzeltme
 
 **Soru 34** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 34** (1 point)
+
+While system testing is in progress, the weekly test progress report shows that 30% of the planned tests are blocked by an unstable test environment. What is the main purpose of reporting this information?
+
+a) To inform adjustments to the test schedule, resources, or test plan.
+
+b) To complete the lessons learned list to be used after testing as input to process improvement.
+
+c) To document detailed reproduction steps that replace defect reports about the environment.
+
+d) To complete the final evaluation of product quality against exit criteria and close testing.
+
+</div>
+
 Sistem testi (system testing) sürerken haftalık test ilerleme raporu (test progress report), planlanan testlerin %30'unun kararsız test ortamı (test environment) nedeniyle engellendiğini gösterir. Bu bilginin raporlanmasının temel amacı nedir?
 
 a) Test takviminin, kaynakların veya test planının (test plan) ayarlanmasına bilgi sağlamak.
+
 b) Test bittikten sonra kullanılacak alınan dersler listesini, süreç iyileştirmesine girdi olarak tamamlamak.
+
 c) Ortama ait hata raporlarının (defect report) yerine geçecek ayrıntılı yeniden üretme adımlarını belgelemek.
+
 d) Ürün kalitesinin çıkış kriterlerine (exit criteria) göre son değerlendirmesini tamamlayıp testi kapatmak.
 
 <!-- META
@@ -830,11 +1524,30 @@ degisiklik: duzeltme
 
 **Soru 35** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 35** (1 point)
+
+A team follows the full generic review process for a railway signaling design. Participants prepare individually; metrics such as the number of anomalies found and preparation time are used for process improvement. The author participates but cannot be the review leader or the scribe. The main objective is to find as many anomalies as possible. Which type of review is this?
+
+a) Technical review
+
+b) Inspection
+
+c) Walkthrough
+
+d) Informal review
+
+</div>
+
 Bir ekip, demiryolu sinyalizasyon tasarımı için genel gözden geçirme sürecinin (review process) tamamını izler. Katılımcılar bireysel hazırlanır; bulunan anomali (anomaly) sayısı ve hazırlık süresi gibi metrikler süreç iyileştirmede kullanılır. Yazar katılır ancak gözden geçirme lideri veya katip olamaz. Temel amaç olabildiğince çok anomali bulmaktır. Bu hangi gözden geçirme çeşididir?
 
 a) Teknik gözden geçirme (technical review)
+
 b) Teftiş (inspection)
+
 c) Üzerinden geçme (walkthrough)
+
 d) Gayri resmi gözden geçirme (informal review)
 
 <!-- META
@@ -851,11 +1564,30 @@ degisiklik: duzeltme
 
 **Soru 36** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 36** (1 point)
+
+A user story requests free shipping for eligible orders. Its acceptance criterion is: “Shipping is free for orders over 500 placed by members.” Using acceptance test-driven development (ATDD), which test case is correctly derived from this criterion?
+
+a) Input: total 520, customer is a member. Expected result: shipping charge is zero.
+
+b) Input: total 520, customer is a member. Expected result: the order is stored as a new record in the database.
+
+c) Input: total 480, customer is not a member. Expected result: shipping charge is zero.
+
+d) Input: customer is a member, order amount unspecified. Expected result: shipping charge is zero for every order.
+
+</div>
+
 Bir kullanıcı hikâyesi (user story), uygun siparişlerde ücretsiz kargo ister. Kabul kriteri (acceptance criteria) şöyledir: “Üyelerin verdiği 500'ün üzerindeki siparişlerde kargo ücretsizdir.” Kabul testi güdümlü yazılım geliştirme (acceptance test-driven development, ATDD) ile hangi test senaryosu (test case) bu kriterden doğru türetilmiştir?
 
 a) Girdi: toplam 520, müşteri üye. Beklenen sonuç (expected result): kargo ücreti sıfır.
+
 b) Girdi: toplam 520, müşteri üye. Beklenen sonuç: sipariş veritabanında yeni bir kayıt olarak saklanır.
+
 c) Girdi: toplam 480, müşteri üye değil. Beklenen sonuç: kargo ücreti sıfır.
+
 d) Girdi: müşteri üye, sipariş tutarı belirtilmemiş. Beklenen sonuç: her siparişte kargo ücreti sıfır.
 
 <!-- META
@@ -872,11 +1604,30 @@ degisiklik: duzeltme
 
 **Soru 37** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 37** (1 point)
+
+A company has its mobile application tested by an external test laboratory. After two releases, the following observations are recorded. Which observation shows a typical drawback of a high level of independence of testing?
+
+a) The laboratory's questioning of assumptions allowed contradictions in the requirements to be resolved before approval.
+
+b) By working with assumptions different from the developers', the laboratory found failures that the developers had missed.
+
+c) The laboratory learned about requirements changes late because it was outside the team's day-to-day communication.
+
+d) The developers completed their own component testing and delivered a testable release to the laboratory.
+
+</div>
+
 Bir şirket mobil uygulamasını harici bir test laboratuvarına test ettirir. İki sürümden sonra aşağıdaki gözlemler kaydedilir. Hangisi yüksek test bağımsızlığının (independence of testing) tipik bir sakıncasını gösterir?
 
 a) Laboratuvarın varsayımları sorgulaması, gereksinimlerdeki çelişkilerin onaydan önce giderilmesini sağladı.
+
 b) Laboratuvar, geliştiricilerden farklı varsayımlarla çalışarak onların kaçırdığı arızaları (failure) buldu.
+
 c) Laboratuvar günlük ekip iletişiminin dışında kaldığı için gereksinim değişikliklerini geç öğrendi.
+
 d) Geliştiriciler kendi bileşen testlerini (component testing) tamamlayıp laboratuvara test edilebilir sürüm teslim etti.
 
 <!-- META
@@ -893,11 +1644,30 @@ degisiklik: duzeltme
 
 **Soru 38** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 38** (1 point)
+
+A test completion report states: “The regression test suite was executed successfully against the release candidate.” However, the report does not specify the release candidate's build number or the test suite version. An auditor considers the evidence insufficient. Which practice addresses this gap?
+
+a) Automating more tests to generate detailed result reports for every run.
+
+b) Tightening the exit criteria for system testing to raise the acceptance threshold.
+
+c) Identifying the tested versions through configuration management and specifying them in the report.
+
+d) Adding detailed steps to defect reports so that the failing operation can be reproduced.
+
+</div>
+
 Bir test tamamlama raporu (test completion report), “Regresyon test grubu (regression test suite) sürüm adayı üzerinde başarıyla koşuldu” der. Ancak rapor sürüm adayının derleme numarasını ve test grubu sürümünü belirtmez. Denetçi kanıtı yetersiz bulur. Hangi uygulama bu eksikliği giderir?
 
 a) Daha fazla testi otomatikleştirerek her koşumda ayrıntılı sonuç raporlarının oluşturulmasını sağlamak.
+
 b) Sistem testi (system testing) için çıkış kriterlerini (exit criteria) sıkılaştırarak kabul eşiğini yükseltmek.
+
 c) Yapılandırma yönetimiyle (configuration management) test edilen sürümleri tanımlayıp raporda belirtmek.
+
 d) Hata raporlarına (defect report), hatalı işlemin yeniden üretilmesini sağlayan ayrıntılı adımları eklemek.
 
 <!-- META
@@ -914,6 +1684,33 @@ degisiklik: duzeltme
 
 **Soru 39** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 39** (1 point)
+
+A tester prepares the following draft defect report:
+
+- ID: DR-2107. Title: Loyalty points are not awarded for member orders.
+- Date: 8 June 2026. Author: J. Marsh.
+- Test object: Payment service v2.3. Environment: Pre-production, build 5511.
+- Test basis: Members earn one loyalty point for every complete 10.00 units of the order total.
+- Steps: Log in as a member; add products totaling 527.40; complete the order; open the confirmation page.
+- Actual result: The page displays “Loyalty points earned: 0”.
+- Expected result: Not yet written.
+- Severity: Major. Priority: High.
+
+Which statement **BEST** defines the expected result of this test as a concrete observation that can be compared directly with the actual result?
+
+a) The order confirmation page should display “Loyalty points earned: 52”.
+
+b) The order confirmation page should display “Loyalty points earned: 53”.
+
+c) The order confirmation page should display the correct number of loyalty points defined in the requirement for the member's order.
+
+d) The loyalty points calculation in the payment service should be corrected so that points are awarded for member orders.
+
+</div>
+
 Bir test uzmanı aşağıdaki hata raporu (defect report) taslağını hazırlar:
 
 - Kimlik: DR-2107. Başlık: Üye siparişlerinde sadakat puanı verilmiyor.
@@ -928,8 +1725,11 @@ Bir test uzmanı aşağıdaki hata raporu (defect report) taslağını hazırlar
 Bu testin beklenen sonucunu, gerçekleşen sonuçla doğrudan karşılaştırılabilecek somut bir gözlem olarak hangi ifade **EN İYİ** tanımlar?
 
 a) Sipariş onay sayfasında “Kazanılan sadakat puanı: 52” yazmalıdır.
+
 b) Sipariş onay sayfasında “Kazanılan sadakat puanı: 53” yazmalıdır.
+
 c) Sipariş onay sayfası, üye siparişi için gereksinimde tanımlanan doğru sadakat puanı sayısını göstermelidir.
+
 d) Ödeme hizmetindeki sadakat puanı hesaplaması, üye siparişlerine puan verilecek biçimde düzeltilmelidir.
 
 <!-- META
@@ -946,11 +1746,30 @@ degisiklik: yok
 
 **Soru 40** (1 puan)
 
+<div class="en-block" lang="en">
+
+**EN · Question 40** (1 point)
+
+A team automating regression testing through the user interface finds, after six months, that every screen change breaks dozens of scripts. Updating the scripts requires more effort than was planned for the entire automation project. Which test automation risk has materialized?
+
+a) Dependence on a supplier that may discontinue the tool
+
+b) Using a test tool for work where manual testing is more appropriate
+
+c) Relying too heavily on tool results and neglecting human critical thinking
+
+d) Underestimating the maintenance effort needed to sustain the test scripts
+
+</div>
+
 Kullanıcı arayüzünden regresyon testi (regression testing) otomasyonu kuran bir ekip, altı ay sonra her ekran değişikliğinin onlarca betiği bozduğunu görür. Betikleri güncellemek, bütün otomasyon projesi için planlanandan daha fazla efor gerektirmektedir. Hangi test otomasyonu (test automation) riski gerçekleşmiştir?
 
 a) Aracı kullanımdan kaldırabilecek bir tedarikçiye bağımlı kalınması
+
 b) Manuel testin daha uygun olduğu bir işte test aracının kullanılması
+
 c) Araç sonuçlarına fazla güvenilerek insanın eleştirel düşünmesinin ihmal edilmesi
+
 d) Test betiklerini sürdürmek için gereken bakım eforunun eksik tahmin edilmesi
 
 

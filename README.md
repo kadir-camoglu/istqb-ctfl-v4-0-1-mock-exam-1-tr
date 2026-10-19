@@ -1,6 +1,6 @@
 # ISTQB® CTFL® Türkçe Deneme Sınavı 1
 
-40 soru, cevap anahtarı ve ayrıntılı Türkçe açıklamalar.
+40 iki dilli soru (İngilizce ve Türkçe), iki dilli seçenekler, cevap anahtarı ve ayrıntılı Türkçe açıklamalar.
 
 [Denemeyi aç](https://kadir-camoglu.github.io/istqb-ctfl-v4-0-1-mock-exam-1-tr/)
 
