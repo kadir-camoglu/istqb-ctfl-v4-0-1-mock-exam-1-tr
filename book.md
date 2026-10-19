@@ -117,15 +117,15 @@ k: K2
 tip: comparison
 dogru: b
 tuzak: Near-miss karışıklığı
-degisiklik: yok
+degisiklik: duzeltme
 -->
 
 **Soru 4** (1 puan)
 
 Bir bordro sürümü için sistem testini (system testing) planlayan test yöneticisi iki liste hazırlar:
 
-- Liste 1: 500 çalışanlık test verisi (test data) hazırdır ve sistem testi senaryoları (test case) gözden geçirilmiştir.
-- Liste 2: Vergi modülünün dal kapsamı (branch coverage) %85'e ulaşmıştır ve açık kritik hata (defect) kalmamıştır.
+- Liste 1: Sistem testine başlanabilmesi için 500 çalışanlık test verisi (test data) hazır olmalı ve sistem testi senaryoları (test case) gözden geçirilmiş olmalıdır.
+- Liste 2: Sistem testinin tamamlanmış sayılması için bu seviyede ölçülen vergi modülü dal kapsamı (branch coverage) en az %85 olmalı ve açık kritik hata (defect) kalmamalıdır.
 
 Bu listelerle ilgili hangi ifade **DOĞRUDUR**?
 
@@ -759,7 +759,7 @@ degisiklik: duzeltme
 
 **Soru 32** (1 puan)
 
-Bir otel uygulamasında ay sonunu aşan konaklamalar için gece sayısı yanlış hesaplanmaktadır. Düzeltmeden sonra test uzmanı arızayı (failure) ortaya çıkaran 30 Nisan–2 Mayıs testini tekrarlar. Ardından ödeme, sadakat puanı ve iptal için otomatik test gruplarını (test suite) yeniden koşarak değişikliğin olumsuz etkilerini arar. Onaylama testi (confirmation testing) ve regresyon testi (regression testing) açısından bu iki aktiviteyi hangi ifade **EN İYİ** açıklar?
+Bir otel uygulamasında ay sonunu aşan konaklamalar için gece sayısı yanlış hesaplanmaktadır. Düzeltmeden sonra test uzmanı arızayı (failure) ortaya çıkaran 30 Nisan–2 Mayıs testini tekrarlar. Ardından ödeme, sadakat puanı ve iptal için önceki koşumlarda geçen otomatik test gruplarını (test suite) yeni sürüm üzerinde yeniden koşar. Onaylama testi (confirmation testing) ve regresyon testi (regression testing) açısından bu iki aktiviteyi hangi ifade **EN İYİ** açıklar?
 
 a) İlk aktivite değişen hesaplamanın yan etkilerini, ikinci aktivite de diğer özelliklerdeki yan etkileri arar.
 b) İlk aktivite hatanın (defect) giderildiğini kontrol eder; ikinci aktivite değişikliğin olumsuz etkilerini arar.
@@ -925,7 +925,7 @@ Bir test uzmanı aşağıdaki hata raporu (defect report) taslağını hazırlar
 - Beklenen sonuç (expected result): Henüz yazılmadı.
 - Önem derecesi (severity): büyük. Öncelik (priority): yüksek.
 
-Beklenen sonuç alanına hangi ifade yazılmalıdır?
+Bu testin beklenen sonucunu, gerçekleşen sonuçla doğrudan karşılaştırılabilecek somut bir gözlem olarak hangi ifade **EN İYİ** tanımlar?
 
 a) Sipariş onay sayfasında “Kazanılan sadakat puanı: 52” yazmalıdır.
 b) Sipariş onay sayfasında “Kazanılan sadakat puanı: 53” yazmalıdır.
@@ -1066,7 +1066,7 @@ Hedef, her bölümde en az %65 için gereken doğru sayısıdır; kesirli sonuç
 
 **Soru 4 — Doğru cevap: b**
 
-**Neden doğru:** Giriş kriterleri bir aktiviteye başlayabilmek için gereken ön koşulları belirtir. Çıkış kriterleri, aktiviteyi tamamlanmış saymak için ulaşılması gereken durumu tanımlar; iki liste sırasıyla bu iki işi yapmaktadır.
+**Neden doğru:** Giriş kriterleri bir aktiviteye başlayabilmek için gereken ön koşulları belirtir. Liste 1 sistem testine başlama koşullarını verir. Çıkış kriterleri aktiviteyi tamamlanmış saymak için ulaşılması gereken durumu tanımlar; Liste 2 aynı test seviyesinin tamamlanma koşullarını verir.
 
 **En cazip yanlış (near-miss) — c:** İki liste de test başlamadan hazırlanabilir; bu nedenle ikisini de giriş kriteri sanmak mümkündür. Türü belirleyen yazılma zamanı değil, başlama veya bitirme kararını yönetmesidir.
 
@@ -1499,7 +1499,7 @@ Hedef, her bölümde en az %65 için gereken doğru sayısıdır; kesirli sonuç
 
 **En cazip yanlış (near-miss) — b:** 53, 52,74 sonucunu yukarı yuvarlayarak bulunur. Gereksinim yuvarlama değil her tam 10,00 birimini saymayı istediği için bu sonuç yanlıştır.
 
-**Diğer şıklar:** c) Doğru puan sayısı demek karşılaştırılabilir somut beklenen değeri vermez; raporu okuyan kişiyi hesabı yeniden yapmaya zorlar. · d) Hesaplamanın düzeltilmesi bir çözüm önerisidir; kullanıcıya görünmesi gereken beklenen sonuç değildir.
+**Diğer şıklar:** c) Doğru puan sayısı ifadesi genel beklentiyi anlatır, ancak sorunun istediği doğrudan karşılaştırılabilir somut gözlemi vermez. Bu girdiler için beklenen 52 puan açıkça yazılmalıdır. · d) Hesaplamanın düzeltilmesi bir çözüm önerisidir; kullanıcıya görünmesi gereken beklenen sonuç değildir.
 
 *Kaçırdıysanız tekrar edin: Hata yönetimi | Tuzak: Prosedür hatası | LO: FL-5.5.1 (K3)*
 
